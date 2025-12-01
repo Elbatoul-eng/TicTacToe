@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio PRO — Ton Nom</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="brand">Ton Nom</div>
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#projects">Projets</a>
+    <a href="#contact">Contact</a>
+    <button id="darkModeToggle">🌙</button>
+  </nav>
+</header>
+
+<main>
+<section id="hero">
+  <h1>Bonjour, je suis <span class="highlight">Ton Nom</span></h1>
+  <p>Développeur web & Designer | Étudiant</p>
+</section>
+
+<section id="about">
+  <h2>À propos</h2>
+  <p>Je suis passionné par le développement web et je crée des projets modernes et responsive. Mon objectif : transformer mes idées en expériences interactives.</p>
+  <img src="assets/avatar.jpg" alt="Avatar" class="avatar">
+</section>
+
+<section id="projects">
+  <h2>Projets</h2>
+  <div id="projects-list"></div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <form action="https://formspree.io/f/tonformid" method="POST">
+    <input type="text" name="name" placeholder="Nom" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="message" placeholder="Message" required></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+</main>
+
+<footer>
+<p>© Ton Nom — Portfolio PRO</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
